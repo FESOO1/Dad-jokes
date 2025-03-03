@@ -21,6 +21,7 @@ async function getJokerFromTheApi() {
     }
     catch(error) {
         console.error(error);
+        jokeParagraph.textContent = `"What time is it?" I don't know... it keeps changing.`;
     };
 };
 

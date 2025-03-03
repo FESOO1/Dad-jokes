@@ -36,6 +36,7 @@ main {
     font-family: var(--f-moon-dance);
     color: white;
     font-weight: 400;
+    text-align: center;
 }
 
 /* MAIN JOKE CONTAINER */
@@ -78,4 +79,12 @@ main {
 
 .main-joke-container-button:active {
     background-color: rgb(60,60,60);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 550px) {
+    .main-joke-container {
+        width: calc(100% - 30px);
+    }
 }
