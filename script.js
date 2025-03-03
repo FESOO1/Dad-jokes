@@ -17,7 +17,6 @@ async function getJokerFromTheApi() {
 
         const jokeData = await response.json();
 
-        console.log(jokeData);
         jokeParagraph.textContent = jokeData.joke;
     }
     catch(error) {
